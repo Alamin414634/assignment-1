@@ -32,3 +32,39 @@ button{
 .title-1 {
     font-size: 40px;
 }
+.container-2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-2{
+    font-size: 35px;
+}
+.img-2{
+    border-radius: 25px;
+}
+.container-3{
+background-color: #e8e8f8;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+margin: 0 150px;
+border-radius: 10px;
+padding: 10px 30px;
+padding-bottom: 30px;
+}
+.user{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px;
+
+}
+.text-3{
+    font-size: x-large;
+    text-align: center;
+}
+.active-user{
+    color: #4E47FF;
+    font-size: 50px;
+
+}
