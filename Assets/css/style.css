@@ -68,3 +68,87 @@ padding-bottom: 30px;
     font-size: 50px;
 
 }
+
+.conatiner-4{
+    text-align: center;
+    margin-top: 60px;
+
+}
+.card-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card-1{
+    padding: 30px;
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.text-4{
+    font-size: 40px;
+}
+.checked{
+    color: orange;
+}
+.img-3{
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 80px;
+}
+.review{
+    list-style: none;
+    font-size: small;
+    margin-left: -25px;
+
+}
+.paragraph{
+    font-size: small;
+
+}
+.container-5{
+    background-color: white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+margin: 0 150px;
+padding: 20px;
+margin-top: 30px;
+text-align: center;
+}
+.img-4{
+    margin-top: 30px;
+
+}
+.four{
+    border-radius: 35px;
+
+}
+.container-6{
+    margin-top: 60px;
+    margin: 50px 150px;
+
+}
+.container{
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.left{
+    flex: 1;
+    color: rgb(2, 2, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
