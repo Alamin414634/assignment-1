@@ -37,7 +37,7 @@ button{
     margin-bottom: 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .text-2{
     font-size: 35px;
@@ -69,50 +69,59 @@ padding-bottom: 30px;
 
 }
 
-.conatiner-4{
+.container-4 {
     text-align: center;
     margin-top: 60px;
-
 }
-.card-container{
+
+.card-container {
     display: flex;
     text-align: center;
     justify-content: center;
     gap: 20px;
+
 }
-.card-1{
+
+.card-1 {
     padding: 30px;
     width: 20%;
     background-color: white;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    text-align: left;
 }
-.text-4{
+
+.text-4 {
     font-size: 40px;
 }
-.checked{
+
+.checked {
     color: orange;
 }
-.img-3{
+
+.img-4 {
     display: flex;
     align-items: center;
 }
-.avatar{
+
+.avatar {
     width: 30px;
     height: 30px;
     border-radius: 80px;
 }
-.review{
+
+.review {
     list-style: none;
     font-size: small;
     margin-left: -25px;
-
 }
-.paragraph{
+
+.paragraph {
     font-size: small;
-
 }
+
 .container-5{
+    margin-top: 100px;
     background-color: white;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
 border-radius: 10px;
@@ -123,25 +132,31 @@ text-align: center;
 }
 .img-4{
     margin-top: 30px;
+    margin-left: 230px;
 
 }
 .four{
     border-radius: 35px;
 
 }
-.container-6{
+
+.container-6 {
+
     margin-top: 60px;
     margin: 50px 150px;
-
 }
-.container{
+
+.container {
     display: flex;
+
+
     background-color: white;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
 }
-.left{
+
+.left {
     flex: 1;
     color: rgb(2, 2, 2);
     display: flex;
@@ -151,4 +166,73 @@ text-align: center;
     font-weight: bold;
     padding: 20px;
     text-align: center;
+}
+
+.right {
+    flex: 1;
+    padding: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 100px;
+}
+
+.button1 {
+
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 12px 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ae0707;
+}
+
+.container-7 {
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 50px;
+    padding: 70px;
+}
+
+.logo-7 {}
+
+.menu {
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+
+
+}
+
+.footer-logo {
+    color: #4E47FF;
+    font-size: 50px;
+    font-weight: bolder;
 }
